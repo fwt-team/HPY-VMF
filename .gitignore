@@ -1,0 +1,5 @@
+__pycache__*
+.idea/
+.DS_Store
+datas/brain
+nilearn_cache
