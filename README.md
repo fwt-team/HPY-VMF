@@ -11,13 +11,13 @@ conda activate Test
 
 ## File
 
-    datas  # container of data  
-    result # container figure of result  
-    config.py # the hyper parameters of dataset  
-    model.py # hdp-vmf model code  
-    utils.py # some util functions  
+    datas              # container of data  
+    result             # container figure of result  
+    config.py          # the hyper parameters of dataset  
+    model.py           # hdp-vmf model code  
+    utils.py           # some util functions  
     train_synthetic.py # training code of synthetic data  
-    train_brain.py # training code of fMRI data  
+    train_brain.py     # training code of fMRI data  
     cluster_process.py # fMRI process code  
 
 ## Training
@@ -25,18 +25,18 @@ conda activate Test
 To train the model(s) in the paper, run this command:  
 
     __params:__  
-    -name dataset name  
-    -lp Load hyper parameter or not 
-    -verbose print information or not  
+    -name     # dataset name  
+    -lp       # Load hyper parameter or not 
+    -verbose  # print information or not  
 
-    -k first truncation of model  
-    -t second truncation of model  
-    -tau stick hyper params of fist level  
-    -gamma stick hyper params of second level  
-    -th second level threshold of converge   
-    -mth the threshold of Cluster number  
-    -sm second level max iteration  
-    -m max iterations of training  
+    -k        # first truncation of model  
+    -t        # second truncation of model  
+    -tau      # stick hyper params of fist level  
+    -gamma    # stick hyper params of second level  
+    -th       # second level threshold of converge   
+    -mth      # the threshold of Cluster number  
+    -sm       # second level max iteration  
+    -m        # max iterations of training  
 
 ```train
 python train_synthetic.py -name small_data -lp 1 -verbose 1 -k 10 -t 5 -tau 1 -gamma 1 -th 1e-7 -mth 0.011 -sm -1 -m 10
