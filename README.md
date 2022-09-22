@@ -1,4 +1,4 @@
-# Grouped Spherical Data Modeling Trough Hierarchical Nonparametric Bayesian Models and Its Application to fMRI Data Analysis
+# code for paper: 'Grouped Spherical Data Modeling Trough Hierarchical Nonparametric Bayesian Models and Its Application to fMRI Data Analysis'
 
 ## Requirements
 
@@ -51,3 +51,11 @@ Our model achieves the following performance with CH score on :
 ![Result](./result/fig/result.png)
 
 
+    @ARTICLE{YANG2022,  
+    author={Fan, Wentao and Yang, Lin and Bouguila, Nizar},  
+    journal={IEEE Transactions on Neural Networks and Learning Systems},   
+    title={Grouped Spherical Data Modeling Trough Hierarchical Nonparametric Bayesian Models and Its Application to fMRI Data Analysis},   
+    year={2022},  
+    volume={1},  
+    number={1},  
+    pages={1},}
